@@ -18,9 +18,12 @@ Data Splitting
 The labeled tweets were randomly divided by SWB into training and test sets with an 80:20 split. (A small number of tweet ids had been deleted and were no longer accessible for modeling, leaving 76 relevant and 387 irrelevant tweets.)
 
 Model Building 
-
+SVM 
+Logistics Regression 
+Naive Bayes
 
 Performance Measurement 
-
+Specificity, Sensitivity, PPV, NPV
 
 Conclusions 
+These models necessarily reflect the judgment that went into the labeling. Moving forward, this could be improved by a larger set of data labeled by a group of experts who have reached consensus on the essential distinctions between relevant and irrelevant tweets.

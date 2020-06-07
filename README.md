@@ -7,23 +7,23 @@
 
 **Package and library**: GetOldTweets3, NumPy, Pandas, nltk
 
-**Data Collection**
+**Data Collection**<br/>
 Twitter: tweets that focus on prevention and risk of COVID-19 from Twitter using GetOldTweets3
 Manually Labeled Dataset: provided a set of 511 tweets from the NCR that he had manually labeled as relevant (86) or irrelevant (425) depending on whether they pertained to prevention and/or risk. 
 
-**Data Cleansing**
+**Data Cleansing**<br/>
 Worked with NLTK library to transform data (lemmatizing word, removing white space, hyperlink, Latin characters and digits)
 
-**Data Splitting** 
+**Data Splitting** <br/>
 The labeled tweets were randomly divided by SWB into training and test sets with an 80:20 split. (A small number of tweet ids had been deleted and were no longer accessible for modeling, leaving 76 relevant and 387 irrelevant tweets.)
 
-**Model Building**
+**Model Building**<br/>
 SVM 
 Logistics Regression 
 Naive Bayes
 
-**Performance Measurement**
+**Performance Measurement**<br/>
 Specificity, Sensitivity, PPV, NPV
 
-**Conclusions**
+**Conclusions**<br/>
 These models necessarily reflect the judgment that went into the labeling. Moving forward, this could be improved by a larger set of data labeled by a group of experts who have reached consensus on the essential distinctions between relevant and irrelevant tweets.
